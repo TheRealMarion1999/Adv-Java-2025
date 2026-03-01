@@ -1,7 +1,0 @@
-DISTINCT TOKEN COUNTS (Map<String, Integer>)
-
-processToken(TOKEN(a single token)) {
-	Check DTC for TOKEN
-	if it's not there, add it and put a 1 for the integer
-	if it is, find the respective key and add 1 to its current integer		
-}
