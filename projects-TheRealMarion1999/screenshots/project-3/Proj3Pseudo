@@ -1,0 +1,22 @@
+TokenLengthsAnalyzer
+=================================
+processToken(token)
+token is here
+how long is that token? Get the token's length.
+much like the previous use of maps, if that length is present as a key, add a 1 to its value
+if it isn't, add it as having a 1 as its value.
+
+
+TokenLocationSearchAnalyzer
+============================================
+processToken(token)
+token is here!
+have a list created by reading the search file.
+with each token, go through the list and see if it matches an entry
+if it does, add it to a Map or check for its existence etc.etc.
+
+search_tokens.txt
+=======================
+this file isn't really important and it'd be a pain to read it every time in the search analyzer, SO!
+read through it with a filereader
+put its contents into a List in TokenLocationSearchAnalyzer.
